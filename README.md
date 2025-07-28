@@ -84,14 +84,6 @@ ollama serve &
 └── .env
 ```
 
-## 📚 Próximos Passos
-
-1. Implementar comunicação real entre LangChain e MCP Server
-2. Adicionar embeddings para busca semântica
-3. Integrar com Claude API (quando disponível)
-4. Adicionar mais tipos de dados e fontes
-5. Implementar interface web com FastAPI
-
 ## 🐛 Troubleshooting
 
 **Problema**: Elasticsearch não conecta
