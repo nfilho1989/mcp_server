@@ -1,0 +1,16 @@
+{
+  "name": "elasticsearch-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for Elasticsearch integration",
+  "protocol_version": "0.1.0",
+  "capabilities": {
+    "tools": true,
+    "resources": true,
+    "prompts": false
+  },
+  "elasticsearch": {
+    "host": "elasticsearch",
+    "port": 9200,
+    "index": "sample_data"
+  }
+}
