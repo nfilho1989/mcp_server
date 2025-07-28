@@ -83,14 +83,3 @@ ollama serve &
 ├── requirements.txt
 └── .env
 ```
-
-## 🐛 Troubleshooting
-
-**Problema**: Elasticsearch não conecta
-- Solução: Verifique se o container está rodando: `docker ps`
-
-**Problema**: Ollama não funciona
-- Solução: Instale e inicie o Ollama conforme instruções acima
-
-**Problema**: Agente não responde
-- Solução: Verifique se o modelo foi baixado: `ollama list`
